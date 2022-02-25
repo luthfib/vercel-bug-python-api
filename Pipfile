@@ -1,0 +1,26 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3.9'
+
+[packages]
+python-jose = { extras = ['cryptography']}
+flask_cors = '*'
+Werkzeug = "*"
+Flask = '==2.0.3'
+pymongo = '==3.12.1'
+requests = '*'
+braintree = '==4.13.1'
+b2sdk= '==1.14.0'
+dnspython = "*"
+
+[dev-packages]
+faker = "*"
+pandas = "*"
+black = "*"
+
+[pipenv]
+allow_prereleases = true
